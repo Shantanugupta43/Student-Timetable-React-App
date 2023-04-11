@@ -1,0 +1,22 @@
+.deadline {
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .colone{
+    
+    background: #ac3232;
+  
+  }
+  
+  .coltwo{
+    background: #804600;
+  }
+
+  .colthree{
+    background: #465a4b;
+  }

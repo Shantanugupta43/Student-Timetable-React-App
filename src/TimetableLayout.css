@@ -1,0 +1,32 @@
+.rbc-off-range-bg {
+    background: #494849;
+}
+
+.rbc-today {
+    background-color: #d02de1;
+}
+
+.rbc-toolbar button {
+    color: #ffff;
+}
+
+.rbc-ellipsis, .rbc-show-more, .rbc-row-segment .rbc-event-content, .rbc-event-label {
+    display: block;
+    overflow: inherit;
+    font-size: 8px;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    
+}
+
+.rbc-day-slot .rbc-event-content {
+    font-size: 8px;
+}
+
+.rbc-event.rbc-selected, .rbc-event, .rbc-day-slot .rbc-background-event{
+    background-color: #2F4C37;
+}
+
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+    background-color: #000000;
+}
