@@ -36,11 +36,16 @@ header{
   word-spacing: 6px;
   justify-content: space-evenly;
   font-size: 15px;
+  background: #214458;
 }
 
 nav{
   display: flex;
   align-items: center;
+}
+
+.navcontainer{
+  background: black;
 }
 
 ul {

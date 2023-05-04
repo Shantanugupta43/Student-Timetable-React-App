@@ -2,8 +2,13 @@ import './App.css';
 import './Deplayout.css';
 import LogoutComponent from './LogoutComponent';
 import Navthree from './Navlayoutthree';
+import React, { useEffect } from "react";
 
 function Depthree() {
+  useEffect(() => {
+    document.title = "Departmental Events";  
+  }, []);
+
   return (
     <main className="dash">
     <LogoutComponent/>

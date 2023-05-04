@@ -2,8 +2,13 @@ import './App.css';
 import './Deplayout.css';
 import Navtwo from './Navlayouttwo';
 import LogoutComponent from './LogoutComponent';
+import React, { useEffect } from "react";
 
 function Deptwo() {
+
+  useEffect(() => {
+    document.title = "Departmental Events";  
+  }, []);
   return (
     <main className="dash">
     <LogoutComponent/>

@@ -2,8 +2,14 @@ import './App.css';
 import Nav from './Navlayout';
 import './Deplayout.css';
 import LogoutComponent from './LogoutComponent';
+import React, { useEffect } from "react";
 
 function Depone() {
+
+  useEffect(() => {
+    document.title = "Departmental Events";  
+  }, []);
+
   return (
     <main className="dash">
     <LogoutComponent/>

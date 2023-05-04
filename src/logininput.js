@@ -9,6 +9,7 @@ function LoginForm() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    document.title = "Login";
     async function fetchData() {
       const response = await fetch('/studentlist.csv');
       console.log(response);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import './App.css';
 import DeadlineTwoMod from './DeadlineTwoMod';
 import LogoutComponent from './LogoutComponent';
@@ -8,6 +8,10 @@ import TimetableLayouttwo from './Timetablelayouttwo';
 
 
 function Timetablemr() {
+
+  useEffect(() => {
+    document.title = "Timetable";  
+  }, []);
 
 
   return (

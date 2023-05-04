@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Nav() {
   return (
 
-    <header>
+    <header className="navcontainer">
     <nav>
         <ul>
         <NavLink exact to="/timetablecs"><li>Timetable</li></NavLink>

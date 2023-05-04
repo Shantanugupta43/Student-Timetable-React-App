@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import './App.css';
 import DeadlineThreeMod from './DeadlineThreeMod';
 import LogoutComponent from './LogoutComponent';
@@ -8,6 +8,10 @@ import TimetableLayoutthree from './Timetablelayoutthree';
 
 
 function Timetablebs() {
+
+  useEffect(() => {
+    document.title = "Timetable";  
+  }, []);
 
 
   return (

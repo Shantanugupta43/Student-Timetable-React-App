@@ -1,3 +1,18 @@
+div{
+    animation: fadeIn ease 0.5s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
 .rbc-off-range-bg {
     background: #494849;
 }
