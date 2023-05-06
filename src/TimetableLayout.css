@@ -25,6 +25,55 @@ div{
     color: #ffff;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .rbc-month-view, .rbc-time-view {
+        flex: 12 0;
+        width: 160%;
+        margin-left: -66px;
+        
+        
+    }
+
+    .rbc-time-view *{
+
+        font-size: 10px;
+    }
+
+    .rbc-agenda-view  {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0;
+        width: 150%;
+        overflow: auto;
+        margin-left: -50px;
+    }
+
+    .rbc-agenda-view table.rbc-agenda-table {
+        width: 150%;
+        border: 1px solid #ddd;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+
+    .deadline{
+        text-align: center;
+    }
+
+    .rbc-toolbar .rbc-toolbar-label {
+        padding: 17px;
+        text-align: center;
+    }
+
+    .rbc-btn-group {
+        margin-bottom: 20px;
+    }
+
+    .rbc-row-segment .rbc-event-content{
+        font-size: 6.7px;
+    }
+  }
+
 .rbc-ellipsis, .rbc-show-more, .rbc-row-segment .rbc-event-content, .rbc-event-label {
     display: block;
     overflow: inherit;
