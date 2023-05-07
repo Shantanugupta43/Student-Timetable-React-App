@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Link to GitHub Repository for this project - https://github.com/Shantanugupta43/Student-Timetable-React-App
-Link to website - https://guptatimetableproject.netlify.app/
+<p>Link to website - https://guptatimetableproject.netlify.app/   </p>
 
 # Steps to Login the timetable
 
