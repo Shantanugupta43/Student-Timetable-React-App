@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Link to GitHub Repository for this project - https://github.com/Shantanugupta43/Student-Timetable-React-App
+Link to website - https://guptatimetableproject.netlify.app/
+
+# Steps to Login the timetable
+
+Visit the website - https://guptatimetableproject.netlify.app/
+
+Use the Usernames and Passwords available in the CSV file in the public directory to unlock timetable for students studying in Computer Science, Business and Marketing departments of Edge Hill University.
+
+<h3>Note: The usernames and passwords provided in CSV files are used for testing on this specific project only. The credentials are not affiliated with Edge Hill's actual website. </h3>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
